@@ -1,0 +1,6 @@
+framework module Pods_AllTooValidatorSwift_Tests {
+  umbrella header "Pods-AllTooValidatorSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

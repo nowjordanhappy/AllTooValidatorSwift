@@ -1,0 +1,16 @@
+PODS:
+  - AllTooValidatorSwift (0.1.0)
+
+DEPENDENCIES:
+  - AllTooValidatorSwift (from `../`)
+
+EXTERNAL SOURCES:
+  AllTooValidatorSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AllTooValidatorSwift: d92d94c2c01bbee9667df3020f7f1cd397c4928e
+
+PODFILE CHECKSUM: 27164fc2fcb6f8de5b5e24cfb814e230e72000b9
+
+COCOAPODS: 1.12.1

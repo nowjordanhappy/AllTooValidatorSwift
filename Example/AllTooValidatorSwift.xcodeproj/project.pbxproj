@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A8956A2AC4BBA3007BD001 /* AdultAgeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A895692AC4BBA3007BD001 /* AdultAgeValidator.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,8 +31,9 @@
 /* Begin PBXFileReference section */
 		1A04C0B53DD62A742038D9CB /* Pods-AllTooValidatorSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTooValidatorSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-AllTooValidatorSwift_Example/Pods-AllTooValidatorSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25DACB71D1881A84DF832E3E /* Pods_AllTooValidatorSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTooValidatorSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A895692AC4BBA3007BD001 /* AdultAgeValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultAgeValidator.swift; sourceTree = "<group>"; };
 		4FB08F4E6B443D548AAFC3FC /* Pods-AllTooValidatorSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTooValidatorSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-AllTooValidatorSwift_Tests/Pods-AllTooValidatorSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5A0F9320C2A89BE31DDE9441 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5A0F9320C2A89BE31DDE9441 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AllTooValidatorSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllTooValidatorSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +44,10 @@
 		607FACE51AFB9204008FA782 /* AllTooValidatorSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTooValidatorSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6BDCBBC3FD331DCCFFC2362F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6BDCBBC3FD331DCCFFC2362F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		91070E607FC1417BFE5AF91E /* Pods-AllTooValidatorSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTooValidatorSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AllTooValidatorSwift_Tests/Pods-AllTooValidatorSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFD75BAC2913BBEC92108CA2 /* Pods_AllTooValidatorSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTooValidatorSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43F3BA742388449B965ED34 /* AllTooValidatorSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AllTooValidatorSwift.podspec; path = ../AllTooValidatorSwift.podspec; sourceTree = "<group>"; };
+		D43F3BA742388449B965ED34 /* AllTooValidatorSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AllTooValidatorSwift.podspec; path = ../AllTooValidatorSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF661AA9B19CEAFC672270A5 /* Pods-AllTooValidatorSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTooValidatorSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-AllTooValidatorSwift_Example/Pods-AllTooValidatorSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A895682AC4BB74007BD001 /* CustomValidator */ = {
+			isa = PBXGroup;
+			children = (
+				29A895692AC4BBA3007BD001 /* AdultAgeValidator.swift */,
+			);
+			name = CustomValidator;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 		607FACD21AFB9204008FA782 /* Example for AllTooValidatorSwift */ = {
 			isa = PBXGroup;
 			children = (
+				29A895682AC4BB74007BD001 /* CustomValidator */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,7 +158,6 @@
 				91070E607FC1417BFE5AF91E /* Pods-AllTooValidatorSwift_Tests.debug.xcconfig */,
 				4FB08F4E6B443D548AAFC3FC /* Pods-AllTooValidatorSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,11 +280,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AllTooValidatorSwift_Example/Pods-AllTooValidatorSwift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AllTooValidatorSwift/AllTooValidatorSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/AllTooValidatorSwift/AllTooValidator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AllTooValidatorSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AllTooValidator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,6 +344,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				29A8956A2AC4BBA3007BD001 /* AdultAgeValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
