@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AllTooValidatorSwift_Example' do
+  pod 'AllTooValidatorSwift', :path => '../'
+
+  target 'AllTooValidatorSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
