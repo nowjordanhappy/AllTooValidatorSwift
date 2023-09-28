@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AnyAllTooValidator<T, R> {
+public struct AnyAllTooValidator<T, R> {
     private let _validate: (T) -> AllTooValidatorResult<R>
     
     public init<V: AllTooValidator>(_ validator: V) where V.T == T, V.R == R {
