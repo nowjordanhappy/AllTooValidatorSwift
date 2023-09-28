@@ -102,6 +102,7 @@ switch ageResult {
 ## Requirements
 
 * Xcode 10.0+
+* Swift 5+
 * iOS 9.3+
 
 ## Example
@@ -121,7 +122,7 @@ pod 'AllTooValidatorSwift'
 * If you want to create your custom builder, use **CompositeValidator** and **AnyAllTooValidator** to connect the validators with the **AllTooValidator** protocol.
 * Use **AllTooValidator** for create your own validator. You need to specify the enter and ouput type, they can be different.
 
-## Other platform
+## Other platforms
 * Android: [AllTooValidator](https://github.com/nowjordanhappy)
 
 ## License
