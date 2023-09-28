@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AllTooValidatorSwift'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'This is a Swift validator that uses the Chain of Responsibility pattern to add validations for inputs or other values.'
   s.module_name      = "AllTooValidator"
 
