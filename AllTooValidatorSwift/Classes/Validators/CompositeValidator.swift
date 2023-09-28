@@ -10,7 +10,7 @@ import Foundation
 public class CompositeValidator<T, R>: AllTooValidator {
     private let validators: [AnyAllTooValidator<T, R>]
     
-    init(validators: [AnyAllTooValidator<T, R>]) {
+    public init(validators: [AnyAllTooValidator<T, R>]) {
         self.validators = validators
     }
     
