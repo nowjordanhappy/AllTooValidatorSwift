@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AllTooValidatorSwift.svg?style=flat)](https://cocoapods.org/pods/AllTooValidatorSwift)
 
 Validator using the Chain of Responsibility pattern.
-This is a Kotlin validator that uses the Chain of Responsibility pattern to add validations for inputs or other values.
+This is a Swift validator that uses the Chain of Responsibility pattern to add validations for inputs or other values.
 
 <img src="https://github.com/nowjordanhappy/AllTooValidatorSwift/blob/main/alltoovaldiation-demo.gif" width="300px">
 
@@ -102,7 +102,7 @@ switch ageResult {
 ## Requirements
 
 * Xcode 10.0+
-* iOS 9+
+* iOS 9.3+
 
 ## Example
 
