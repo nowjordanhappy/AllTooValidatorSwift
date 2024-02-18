@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/cocoapods/l/AllTooValidatorSwift.svg?style=flat)](https://cocoapods.org/pods/AllTooValidatorSwift)
 [![Platform](https://img.shields.io/cocoapods/p/AllTooValidatorSwift.svg?style=flat)](https://cocoapods.org/pods/AllTooValidatorSwift)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/nowjordanhappy)
+
 Validator using the Chain of Responsibility pattern.
 This is a Swift validator that uses the Chain of Responsibility pattern to add validations for inputs or other values.
 
